@@ -1,9 +1,6 @@
-'use strict';
+import { NativeModules } from 'react-native'
+module.exports = NativeModules.CallDetectionManager
 
-import { NativeModules, NativeAppEventEmitter } from 'react-native';
-
-const NativeCallDetector = NativeModules.CallDetectionManager;
-module.exports = NativeCallDetector
 // NativeCallDetector.startListener();
 
 // class CallDetector {
