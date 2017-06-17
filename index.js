@@ -1,7 +1,6 @@
 'use strict';
 
 import { NativeModules, NativeAppEventEmitter } from 'react-native';
-import { NativeAppEventEmitter } from 'react-native';
 
 const NativeCallDetector = NativeModules.CallDetectionManager;
 module.exports = NativeCallDetector
