@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21AAD5E11EF57227002E2B59 /* CallDetectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AAD5E01EF57227002E2B59 /* CallDetectionManager.m */; };
+		21AAD6051EF578A0002E2B59 /* CallDetectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AAD6041EF578A0002E2B59 /* CallDetectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		21AAD4F51EF50F19002E2B59 /* libRCTCallDetection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTCallDetection.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AAD5DF1EF57227002E2B59 /* CallDetectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallDetectionManager.h; sourceTree = "<group>"; };
-		21AAD5E01EF57227002E2B59 /* CallDetectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallDetectionManager.m; sourceTree = "<group>"; };
+		21AAD6031EF578A0002E2B59 /* CallDetectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallDetectionManager.h; sourceTree = "<group>"; };
+		21AAD6041EF578A0002E2B59 /* CallDetectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallDetectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		21AAD4F71EF50F19002E2B59 /* RCTCallDetection */ = {
 			isa = PBXGroup;
 			children = (
-				21AAD5DF1EF57227002E2B59 /* CallDetectionManager.h */,
-				21AAD5E01EF57227002E2B59 /* CallDetectionManager.m */,
+				21AAD6031EF578A0002E2B59 /* CallDetectionManager.h */,
+				21AAD6041EF578A0002E2B59 /* CallDetectionManager.m */,
 			);
 			path = RCTCallDetection;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AAD5E11EF57227002E2B59 /* CallDetectionManager.m in Sources */,
+				21AAD6051EF578A0002E2B59 /* CallDetectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

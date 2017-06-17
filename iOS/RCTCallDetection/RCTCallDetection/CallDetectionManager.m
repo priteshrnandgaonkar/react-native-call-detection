@@ -2,40 +2,28 @@
 //  CallDetectionManager.m
 //  housing
 //
-//  Created by Pritesh Nandgaonkar on 17/06/17.
+//  Created by Amandeep Singh on 16/06/17.
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 
 #import "CallDetectionManager.h"
 @import CoreTelephony;
 
+typedef void (^CallBack)();
 @interface CallDetectionManager()
 
-@property(strong, nonatomic) CTCallCenter *callCenter;
+@property(strong, nonatomic) RCTResponseSenderBlock block;
+@property(strong, nonatomic, nonnull) CTCallCenter *callCenter;
 
 @end
 
 @implementation CallDetectionManager
 
-- (NSArray<NSString *> *)supportedEvents
-{
-  return @[@"PhoneCallUpdate"];
-}
-
-- (NSDictionary *)constantsToExport
-{
-  return @{
-           @"Connected"   : @"Connected",
-           @"Dialing"     : @"Dialing",
-           @"Disconnected": @"Disconnected",
-           @"Incoming"    : @"Incoming"
-           };
-}
-
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(startListener) {
+RCT_EXPORT_METHOD(addCallBlock:(RCTResponseSenderBlock) block) {
   // Setup call tracking
+  self.block = block;
   self.callCenter = [[CTCallCenter alloc] init];
   __typeof(self) weakSelf = self;
   self.callCenter.callEventHandler = ^(CTCall *call) {
@@ -44,18 +32,12 @@ RCT_EXPORT_METHOD(startListener) {
 }
 
 - (void)handleCall:(CTCall *)call {
-  NSDictionary *eventNameMap = @{
-                                 CTCallStateConnected    : @"Connected",
-                                 CTCallStateDialing      : @"Dialing",
-                                 CTCallStateDisconnected : @"Disconnected",
-                                 CTCallStateIncoming     : @"Incoming"
-                                 };
-  [self sendEventWithName:@"PhoneCallUpdate" body:eventNameMap[call.callState]];
-}
-
-RCT_EXPORT_METHOD(stopListener)
-{
-  self.callCenter = nil;
+  if (call.callState == CTCallStateDisconnected) {
+    if (self.block) {
+      self.block(@[]);
+      self.block = nil;
+    }
+  }
 }
 
 @end
