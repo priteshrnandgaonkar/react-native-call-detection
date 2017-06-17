@@ -3,7 +3,7 @@
 import { NativeModules } from 'react-native';
 import { NativeAppEventEmitter } from 'react-native';
 
-const NativeCallDetector = NativeModules.CallDetector;
+const NativeCallDetector = NativeModules.CallDetectionManager;
 NativeCallDetector.startListener();
 
 class CallDetector {
