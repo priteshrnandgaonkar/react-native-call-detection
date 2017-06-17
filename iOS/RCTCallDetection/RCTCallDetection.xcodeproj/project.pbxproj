@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21AAD4FA1EF50F19002E2B59 /* RCTCallDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AAD4F91EF50F19002E2B59 /* RCTCallDetection.m */; };
-		21AAD4FB1EF50F19002E2B59 /* RCTCallDetection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 21AAD4F81EF50F19002E2B59 /* RCTCallDetection.h */; };
+		21AAD5E11EF57227002E2B59 /* CallDetectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AAD5E01EF57227002E2B59 /* CallDetectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				21AAD4FB1EF50F19002E2B59 /* RCTCallDetection.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		21AAD4F51EF50F19002E2B59 /* libRCTCallDetection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTCallDetection.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		21AAD4F81EF50F19002E2B59 /* RCTCallDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCallDetection.h; sourceTree = "<group>"; };
-		21AAD4F91EF50F19002E2B59 /* RCTCallDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCallDetection.m; sourceTree = "<group>"; };
+		21AAD5DF1EF57227002E2B59 /* CallDetectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallDetectionManager.h; sourceTree = "<group>"; };
+		21AAD5E01EF57227002E2B59 /* CallDetectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallDetectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,8 @@
 		21AAD4F71EF50F19002E2B59 /* RCTCallDetection */ = {
 			isa = PBXGroup;
 			children = (
-				21AAD4F81EF50F19002E2B59 /* RCTCallDetection.h */,
-				21AAD4F91EF50F19002E2B59 /* RCTCallDetection.m */,
+				21AAD5DF1EF57227002E2B59 /* CallDetectionManager.h */,
+				21AAD5E01EF57227002E2B59 /* CallDetectionManager.m */,
 			);
 			path = RCTCallDetection;
 			sourceTree = "<group>";
@@ -124,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21AAD4FA1EF50F19002E2B59 /* RCTCallDetection.m in Sources */,
+				21AAD5E11EF57227002E2B59 /* CallDetectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +258,7 @@
 				21AAD5001EF50F19002E2B59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
