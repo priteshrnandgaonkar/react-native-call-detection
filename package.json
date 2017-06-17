@@ -1,6 +1,6 @@
 {
   "name": "react-native-call-detection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-   "peerDependencies": {
-           "react-native": ">=0.26.0"
-    }
+  "peerDependencies": {
+    "react-native": ">=0.26.0"
+  }
 }
