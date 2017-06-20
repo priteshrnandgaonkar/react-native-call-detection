@@ -15,10 +15,6 @@ import CallDetectorManager from 'react-native-call-detection'
 
 export default class HomeComponent extends Component {
   startListenerTapped() {
-    // CallDetectionManager.addCallBlock(() => {
-    //   console.log("called by ios")
-    // })
-    debugger
     this.callDetector = new CallDetectorManager((event)=>{
       console.log(event)
     })
