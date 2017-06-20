@@ -29,6 +29,10 @@ typedef void (^CallBack)();
              };
 }
 
+- (NSArray<NSString *> *)supportedEvents {
+    return @[@"PhoneCallStateUpdate"];
+}
+
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(addCallBlock:(RCTResponseSenderBlock) block) {
@@ -67,7 +71,7 @@ RCT_EXPORT_METHOD(stopListener) {
     _callCenter = [[CTCallCenter alloc] init];
     
     [_callCenter setCallEventHandler:^(CTCall *call) {
-        [self sendAppEventWithName:@"PhoneCallStateUpdate"
+        [self sendEventWithName:@"PhoneCallStateUpdate"
                                                      body:[eventNameMap objectForKey: call.callState]];
     }];
 }
