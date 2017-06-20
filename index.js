@@ -11,7 +11,8 @@ class CallDetectorManager {
     subscription;
 
     constructor(callback) {
-        this.subscription = NativeAppEventEmitter.addListener('PhoneCallStateUpdate', callback);
+    	this.subscription = new NativeEventEmitter(NativeCallDetector)
+        this.subscription.addListener('PhoneCallStateUpdate', callback);
     }
 
     dispose() {
