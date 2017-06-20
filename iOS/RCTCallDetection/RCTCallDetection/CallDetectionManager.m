@@ -18,6 +18,15 @@ typedef void (^CallBack)();
 @end
 
 @implementation CallDetectionManager
+- (NSDictionary *)constantsToExport
+{
+    return @{
+             @"Connected"   : @"Connected",
+             @"Dialing"     : @"Dialing",
+             @"Disconnected": @"Disconnected",
+             @"Incoming"    : @"Incoming"
+             };
+}
 
 RCT_EXPORT_MODULE()
 
@@ -31,13 +40,35 @@ RCT_EXPORT_METHOD(addCallBlock:(RCTResponseSenderBlock) block) {
   };
 }
 
+RCT_EXPORT_METHOD(startListener) {
+    // Setup call tracking
+    self.callCenter = [[CTCallCenter alloc] init];
+    __typeof(self) weakSelf = self;
+    self.callCenter.callEventHandler = ^(CTCall *call) {
+        [weakSelf handleCall:call];
+    };
+}
+
+RCT_EXPORT_METHOD(stopListener) {
+    // Setup call tracking
+    self.callCenter = nil;
+}
+
 - (void)handleCall:(CTCall *)call {
-  if (call.callState == CTCallStateDisconnected) {
-    if (self.block) {
-      self.block(@[]);
-      self.block = nil;
-    }
-  }
+    
+    NSDictionary *eventNameMap = @{
+                                   CTCallStateConnected    : @"Connected",
+                                   CTCallStateDialing      : @"Dialing",
+                                   CTCallStateDisconnected : @"Disconnected",
+                                   CTCallStateIncoming     : @"Incoming"
+                                   };
+    
+    _callCenter = [[CTCallCenter alloc] init];
+    
+    [_callCenter setCallEventHandler:^(CTCall *call) {
+        [self.bridge.eventDispatcher sendAppEventWithName:@"PhoneCallStateUpdate"
+                                                     body:[eventNameMap objectForKey: call.callState]];
+    }];
 }
 
 @end

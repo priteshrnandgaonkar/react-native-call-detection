@@ -1,25 +1,23 @@
-import { NativeModules } from 'react-native'
-module.exports = NativeModules.CallDetectionManager
+/**
+ * @providesModule react-native-call-detection
+ */
+import { NativeModules, NativeAppEventEmitter } from 'react-native'
+const NativeCallDetector = NativeModules.CallDetectionManager
 
-// NativeCallDetector.startListener();
+NativeCallDetector.startListener();
 
-// class CallDetector {
-//     static listeners = {};
+class CallDetectorManager {
 
-//     name;
-//     subscription;
+    subscription;
 
-//     constructor(name, callback) {
-//         if(CallDetector.listeners[name]) CallDetector.listeners[name].dispose();
-//         CallDetector.listeners[name] = this;
-//         this.subscription = NativeAppEventEmitter.addListener('PhoneCallUpdate', callback);
-//     }
+    constructor(callback) {
+        this.subscription = NativeAppEventEmitter.addListener('PhoneCallStateUpdate', callback);
+    }
 
-//     dispose() {
-//         if(this.subscription) this.subscription.remove();
-//         CallDetector.stopListener()
-//         delete CallDetector.listeners[this.name];
-//     }
-// }
+    dispose() {
+    	NativeCallDetector.stopListener()
+        if(this.subscription) this.subscription.remove();
+    }
+}
 
-// export default module.exports = CallDetector;
+export default module.exports = CallDetectorManager;
