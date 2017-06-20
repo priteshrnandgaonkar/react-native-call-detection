@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 #import <React/RCTBridgeModule.h>
 
-@interface CallDetectionManager : NSObject <RCTBridgeModule>
+@interface CallDetectionManager : RCTEventEmitter <RCTBridgeModule>
 @end

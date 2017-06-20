@@ -18,6 +18,7 @@ typedef void (^CallBack)();
 @end
 
 @implementation CallDetectionManager
+
 - (NSDictionary *)constantsToExport
 {
     return @{
@@ -66,7 +67,7 @@ RCT_EXPORT_METHOD(stopListener) {
     _callCenter = [[CTCallCenter alloc] init];
     
     [_callCenter setCallEventHandler:^(CTCall *call) {
-        [self.bridge.eventDispatcher sendAppEventWithName:@"PhoneCallStateUpdate"
+        [self sendAppEventWithName:@"PhoneCallStateUpdate"
                                                      body:[eventNameMap objectForKey: call.callState]];
     }];
 }
