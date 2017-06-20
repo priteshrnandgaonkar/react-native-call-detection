@@ -1,7 +1,7 @@
 /**
  * @providesModule react-native-call-detection
  */
-import { NativeModules, NativeAppEventEmitter } from 'react-native'
+import { NativeModules, NativeEventEmitter } from 'react-native'
 const NativeCallDetector = NativeModules.CallDetectionManager
 
 NativeCallDetector.startListener();
