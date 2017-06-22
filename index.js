@@ -11,11 +11,14 @@ const NativeCallDetectorAndroid = NativeModules.CallDetectionManagerAndroid
 NativeCallDetector && NativeCallDetector.startListener();
 NativeCallDetectorAndroid && NativeCallDetectorAndroid.startListener();
 
+debugger
+
 class CallDetectorManager {
 
     subscription;
     callback
     constructor(callback) {
+        debugger
         this.callback = callback
         if (Platform.OS === 'ios') {
             this.subscription = new NativeEventEmitter(NativeCallDetector)
@@ -30,6 +33,8 @@ class CallDetectorManager {
     }
 
       callStateUpdated(state) {
+        debugger
+
         console.log('State')
         console.log(state)
         callback(state)

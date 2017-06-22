@@ -2,56 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="765cedef-a17d-49c9-be6d-422233de8c90" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/.buckconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/.flowconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/.watchmanconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/__tests__/index.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/__tests__/index.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/BUCK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/java/com/calldetectionexample/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/java/com/calldetectionexample/MainApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/app/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/keystores/BUCK" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/keystores/debug.keystore.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/android/settings.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/app.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/index.android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/index.ios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample-tvOS/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample-tvOSTests/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample.xcodeproj/xcshareddata/xcschemes/CallDetectionExample-tvOS.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample.xcodeproj/xcshareddata/xcschemes/CallDetectionExample.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample/AppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample/AppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample/Base.lproj/LaunchScreen.xib" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExample/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExampleTests/CallDetectionExampleTests.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/ios/CallDetectionExampleTests/Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/src/HomeComponent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CallDetectionExample/yarn.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/calldetection/src/main/java/com/pritesh/calldetection/CallDetectionManagerModule.java" afterPath="$PROJECT_DIR$/android/calldetection/src/main/java/com/pritesh/calldetection/CallDetectionManagerModule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="react-native-call-detection.iws" />
@@ -115,8 +65,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="735">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -378,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="735">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding />
         </state>
       </provider>
