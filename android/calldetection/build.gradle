@@ -28,4 +28,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
+    compile 'com.facebook.react:react-native:+'
+    compile 'com.google.android.gms:play-services-gcm:+'
 }
