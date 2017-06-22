@@ -34,7 +34,7 @@ public class CallDetectionManagerModule
 
     @Override
     public String getName() {
-        return "CallDetectionManager";
+        return "CallDetectionManagerAndroid";
     }
 
     @ReactMethod
