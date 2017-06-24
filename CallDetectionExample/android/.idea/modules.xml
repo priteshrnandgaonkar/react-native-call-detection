@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CallDetectionExample.iml" filepath="$PROJECT_DIR$/CallDetectionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../react-native-call-detection/android/calldetection/react-native-call-detection.iml" filepath="$PROJECT_DIR$/../../react-native-call-detection/android/calldetection/react-native-call-detection.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,17 +1,13 @@
-/**
- * @providesModule react-native-call-detection
- */
 import { NativeModules, NativeEventEmitter, Platform } from 'react-native'
-const BatchedBridge = require('BatchedBridge'
-BatchedBridge.registerCallableModule('CallStateUpdateActionModule', CallDetectorManager)
+const BatchedBridge = require('BatchedBridge')
 
 const NativeCallDetector = NativeModules.CallDetectionManager
 const NativeCallDetectorAndroid = NativeModules.CallDetectionManagerAndroid
 
-NativeCallDetector && NativeCallDetector.startListener();
-NativeCallDetectorAndroid && NativeCallDetectorAndroid.startListener();
+NativeCallDetector && NativeCallDetector.startListener()
+NativeCallDetectorAndroid && NativeCallDetectorAndroid.startListener()
 
-debugger
+BatchedBridge.registerCallableModule('CallStateUpdateActionModule', CallDetectorManager)
 
 class CallDetectorManager {
 
@@ -33,7 +29,6 @@ class CallDetectorManager {
     }
 
       callStateUpdated(state) {
-        debugger
 
         console.log('State')
         console.log(state)

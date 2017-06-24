@@ -1,0 +1,3171 @@
+[
+    {
+        "outputFile": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 110,
+                    "endOffset": 161
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 110,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 166,
+                    "endColumn": 107,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 107,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 122,
+                    "endOffset": 392
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 122,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 397,
+                    "endColumn": 114,
+                    "endOffset": 507
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 114,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 512,
+                    "endColumn": 110,
+                    "endOffset": 618
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 110,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 623,
+                    "endColumn": 81,
+                    "endOffset": 700
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 81,
+                        "endOffset": 700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 705,
+                    "endColumn": 105,
+                    "endOffset": 806
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 705,
+                        "endColumn": 105,
+                        "endOffset": 806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 811,
+                    "endColumn": 129,
+                    "endOffset": 936
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 129,
+                        "endOffset": 936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 941,
+                    "endColumn": 82,
+                    "endOffset": 1019
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 941,
+                        "endColumn": 82,
+                        "endOffset": 1019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1024,
+                    "endColumn": 79,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1024,
+                        "endColumn": 79,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 85,
+                    "endOffset": 1185
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 85,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1190,
+                    "endColumn": 109,
+                    "endOffset": 1295
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1190,
+                        "endColumn": 109,
+                        "endOffset": 1295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1300,
+                    "endColumn": 111,
+                    "endOffset": 1407
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endColumn": 111,
+                        "endOffset": 1407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1412,
+                    "endColumn": 102,
+                    "endOffset": 1510
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1412,
+                        "endColumn": 102,
+                        "endOffset": 1510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1515,
+                    "endColumn": 110,
+                    "endOffset": 1621
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1515,
+                        "endColumn": 110,
+                        "endOffset": 1621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1626,
+                    "endColumn": 106,
+                    "endOffset": 1728
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1626,
+                        "endColumn": 106,
+                        "endOffset": 1728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1733,
+                    "endColumn": 106,
+                    "endOffset": 1835
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1733,
+                        "endColumn": 106,
+                        "endOffset": 1835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1840,
+                    "endColumn": 121,
+                    "endOffset": 1957
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1840,
+                        "endColumn": 121,
+                        "endOffset": 1957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1962,
+                    "endColumn": 98,
+                    "endOffset": 2056
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1962,
+                        "endColumn": 98,
+                        "endOffset": 2056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2061,
+                    "endColumn": 156,
+                    "endOffset": 2213
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 156,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2218,
+                    "endColumn": 142,
+                    "endOffset": 2356
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 142,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2361,
+                    "endColumn": 142,
+                    "endOffset": 2499
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 142,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2504,
+                    "endColumn": 95,
+                    "endOffset": 2595
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 95,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2600,
+                    "endColumn": 70,
+                    "endOffset": 2666
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 594,
+                        "endColumn": 70,
+                        "endOffset": 660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2671,
+                    "endColumn": 69,
+                    "endOffset": 2736
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 665,
+                        "endColumn": 69,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2741,
+                    "endColumn": 60,
+                    "endOffset": 2797
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 60,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2802,
+                    "endColumn": 72,
+                    "endOffset": 2870
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 72,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2875,
+                    "endColumn": 74,
+                    "endOffset": 2945
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 74,
+                        "endOffset": 939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2950,
+                    "endColumn": 97,
+                    "endOffset": 3043
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 944,
+                        "endColumn": 97,
+                        "endOffset": 1037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3048,
+                    "endColumn": 93,
+                    "endOffset": 3137
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 93,
+                        "endOffset": 1131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3142,
+                    "endColumn": 77,
+                    "endOffset": 3215
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1136,
+                        "endColumn": 77,
+                        "endOffset": 1209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3220,
+                    "endColumn": 77,
+                    "endOffset": 3293
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1214,
+                        "endColumn": 77,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3298,
+                    "endColumn": 92,
+                    "endOffset": 3386
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1292,
+                        "endColumn": 92,
+                        "endOffset": 1380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3391,
+                    "endColumn": 108,
+                    "endOffset": 3495
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1385,
+                        "endColumn": 108,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3500,
+                    "endColumn": 65,
+                    "endOffset": 3561
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endColumn": 65,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3566,
+                    "endColumn": 67,
+                    "endOffset": 3629
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 67,
+                        "endOffset": 1623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3634,
+                    "endColumn": 183,
+                    "endOffset": 3813
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1628,
+                        "endColumn": 183,
+                        "endOffset": 1807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3818,
+                    "endColumn": 76,
+                    "endOffset": 3890
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1812,
+                        "endColumn": 76,
+                        "endOffset": 1884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3895,
+                    "endColumn": 92,
+                    "endOffset": 3983
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1889,
+                        "endColumn": 92,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3988,
+                    "endColumn": 94,
+                    "endOffset": 4078
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 94,
+                        "endOffset": 2072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4083,
+                    "endColumn": 160,
+                    "endOffset": 4239
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2077,
+                        "endColumn": 160,
+                        "endOffset": 2233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4244,
+                    "endColumn": 62,
+                    "endOffset": 4302
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2238,
+                        "endColumn": 62,
+                        "endOffset": 2296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4307,
+                    "endColumn": 85,
+                    "endOffset": 4388
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2061,
+                        "endColumn": 85,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4393,
+                    "endColumn": 100,
+                    "endOffset": 4489
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2147,
+                        "endColumn": 100,
+                        "endOffset": 2243
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 110,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 110,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 107,
+                    "endOffset": 319
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 107,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 324,
+                    "endColumn": 122,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 122,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 114,
+                    "endOffset": 557
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 114,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 562,
+                    "endColumn": 110,
+                    "endOffset": 668
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 110,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 673,
+                    "endColumn": 81,
+                    "endOffset": 750
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 81,
+                        "endOffset": 700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 755,
+                    "endColumn": 105,
+                    "endOffset": 856
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 705,
+                        "endColumn": 105,
+                        "endOffset": 806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 861,
+                    "endColumn": 129,
+                    "endOffset": 986
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 129,
+                        "endOffset": 936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 991,
+                    "endColumn": 82,
+                    "endOffset": 1069
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 941,
+                        "endColumn": 82,
+                        "endOffset": 1019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1074,
+                    "endColumn": 79,
+                    "endOffset": 1149
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1024,
+                        "endColumn": 79,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1154,
+                    "endColumn": 85,
+                    "endOffset": 1235
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 85,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1240,
+                    "endColumn": 109,
+                    "endOffset": 1345
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1190,
+                        "endColumn": 109,
+                        "endOffset": 1295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1350,
+                    "endColumn": 111,
+                    "endOffset": 1457
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endColumn": 111,
+                        "endOffset": 1407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1462,
+                    "endColumn": 102,
+                    "endOffset": 1560
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1412,
+                        "endColumn": 102,
+                        "endOffset": 1510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1565,
+                    "endColumn": 110,
+                    "endOffset": 1671
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1515,
+                        "endColumn": 110,
+                        "endOffset": 1621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1676,
+                    "endColumn": 106,
+                    "endOffset": 1778
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1626,
+                        "endColumn": 106,
+                        "endOffset": 1728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1783,
+                    "endColumn": 106,
+                    "endOffset": 1885
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1733,
+                        "endColumn": 106,
+                        "endOffset": 1835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1890,
+                    "endColumn": 121,
+                    "endOffset": 2007
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1840,
+                        "endColumn": 121,
+                        "endOffset": 1957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2012,
+                    "endColumn": 98,
+                    "endOffset": 2106
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1962,
+                        "endColumn": 98,
+                        "endOffset": 2056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2111,
+                    "endColumn": 156,
+                    "endOffset": 2263
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 156,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2268,
+                    "endColumn": 142,
+                    "endOffset": 2406
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 142,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2411,
+                    "endColumn": 142,
+                    "endOffset": 2549
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 142,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2554,
+                    "endColumn": 95,
+                    "endOffset": 2645
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 95,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2650,
+                    "endColumn": 70,
+                    "endOffset": 2716
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 594,
+                        "endColumn": 70,
+                        "endOffset": 660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2721,
+                    "endColumn": 69,
+                    "endOffset": 2786
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 665,
+                        "endColumn": 69,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2791,
+                    "endColumn": 60,
+                    "endOffset": 2847
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 60,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2852,
+                    "endColumn": 72,
+                    "endOffset": 2920
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 72,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2925,
+                    "endColumn": 74,
+                    "endOffset": 2995
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 74,
+                        "endOffset": 939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3000,
+                    "endColumn": 97,
+                    "endOffset": 3093
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 944,
+                        "endColumn": 97,
+                        "endOffset": 1037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3098,
+                    "endColumn": 93,
+                    "endOffset": 3187
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 93,
+                        "endOffset": 1131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3192,
+                    "endColumn": 77,
+                    "endOffset": 3265
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1136,
+                        "endColumn": 77,
+                        "endOffset": 1209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3270,
+                    "endColumn": 77,
+                    "endOffset": 3343
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1214,
+                        "endColumn": 77,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3348,
+                    "endColumn": 92,
+                    "endOffset": 3436
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1292,
+                        "endColumn": 92,
+                        "endOffset": 1380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3441,
+                    "endColumn": 108,
+                    "endOffset": 3545
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1385,
+                        "endColumn": 108,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3550,
+                    "endColumn": 65,
+                    "endOffset": 3611
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endColumn": 65,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3616,
+                    "endColumn": 67,
+                    "endOffset": 3679
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 67,
+                        "endOffset": 1623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3684,
+                    "endColumn": 183,
+                    "endOffset": 3863
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1628,
+                        "endColumn": 183,
+                        "endOffset": 1807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3868,
+                    "endColumn": 76,
+                    "endOffset": 3940
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1812,
+                        "endColumn": 76,
+                        "endOffset": 1884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3945,
+                    "endColumn": 92,
+                    "endOffset": 4033
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1889,
+                        "endColumn": 92,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4038,
+                    "endColumn": 94,
+                    "endOffset": 4128
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 94,
+                        "endOffset": 2072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4133,
+                    "endColumn": 160,
+                    "endOffset": 4289
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2077,
+                        "endColumn": 160,
+                        "endOffset": 2233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4294,
+                    "endColumn": 107,
+                    "endOffset": 4397
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 103,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4402,
+                    "endColumn": 211,
+                    "endOffset": 4609
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 211,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4614,
+                    "endColumn": 131,
+                    "endOffset": 4741
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 599,
+                        "endColumn": 127,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4746,
+                    "endColumn": 110,
+                    "endOffset": 4852
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 727,
+                        "endColumn": 106,
+                        "endOffset": 833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4857,
+                    "endColumn": 229,
+                    "endOffset": 5082
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 834,
+                        "endColumn": 229,
+                        "endOffset": 1063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5087,
+                    "endColumn": 134,
+                    "endOffset": 5217
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1064,
+                        "endColumn": 130,
+                        "endOffset": 1194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5222,
+                    "endColumn": 141,
+                    "endOffset": 5359
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1195,
+                        "endColumn": 137,
+                        "endOffset": 1332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5364,
+                    "endColumn": 223,
+                    "endOffset": 5583
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 223,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5588,
+                    "endColumn": 236,
+                    "endOffset": 5820
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1333,
+                        "endColumn": 236,
+                        "endOffset": 1569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5825,
+                    "endColumn": 113,
+                    "endOffset": 5934
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1570,
+                        "endColumn": 109,
+                        "endOffset": 1679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5939,
+                    "endColumn": 215,
+                    "endOffset": 6150
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1680,
+                        "endColumn": 215,
+                        "endOffset": 1895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 6155,
+                    "endColumn": 137,
+                    "endOffset": 6288
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1896,
+                        "endColumn": 133,
+                        "endOffset": 2029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 6293,
+                    "endColumn": 218,
+                    "endOffset": 6507
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 2030,
+                        "endColumn": 218,
+                        "endOffset": 2248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 6512,
+                    "endColumn": 208,
+                    "endOffset": 6716
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2249,
+                        "endColumn": 204,
+                        "endOffset": 2453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 6721,
+                    "endColumn": 102,
+                    "endOffset": 6819
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2454,
+                        "endColumn": 98,
+                        "endOffset": 2552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6824,
+                    "endColumn": 96,
+                    "endOffset": 6916
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2553,
+                        "endColumn": 92,
+                        "endOffset": 2645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6921,
+                    "endColumn": 112,
+                    "endOffset": 7029
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2646,
+                        "endColumn": 108,
+                        "endOffset": 2754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 7034,
+                    "endColumn": 62,
+                    "endOffset": 7092
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2238,
+                        "endColumn": 62,
+                        "endOffset": 2296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 7097,
+                    "endColumn": 85,
+                    "endOffset": 7178
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2061,
+                        "endColumn": 85,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 7183,
+                    "endColumn": 100,
+                    "endOffset": 7279
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2147,
+                        "endColumn": 100,
+                        "endOffset": 2243
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 110,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 110,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 107,
+                    "endOffset": 319
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 166,
+                        "endColumn": 107,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 324,
+                    "endColumn": 122,
+                    "endOffset": 442
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 122,
+                        "endOffset": 392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 447,
+                    "endColumn": 114,
+                    "endOffset": 557
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 397,
+                        "endColumn": 114,
+                        "endOffset": 507
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 562,
+                    "endColumn": 110,
+                    "endOffset": 668
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 512,
+                        "endColumn": 110,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 673,
+                    "endColumn": 81,
+                    "endOffset": 750
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 81,
+                        "endOffset": 700
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 755,
+                    "endColumn": 105,
+                    "endOffset": 856
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 705,
+                        "endColumn": 105,
+                        "endOffset": 806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 861,
+                    "endColumn": 129,
+                    "endOffset": 986
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 129,
+                        "endOffset": 936
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 991,
+                    "endColumn": 82,
+                    "endOffset": 1069
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 941,
+                        "endColumn": 82,
+                        "endOffset": 1019
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1074,
+                    "endColumn": 79,
+                    "endOffset": 1149
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1024,
+                        "endColumn": 79,
+                        "endOffset": 1099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1154,
+                    "endColumn": 85,
+                    "endOffset": 1235
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1104,
+                        "endColumn": 85,
+                        "endOffset": 1185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1240,
+                    "endColumn": 109,
+                    "endOffset": 1345
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1190,
+                        "endColumn": 109,
+                        "endOffset": 1295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1350,
+                    "endColumn": 111,
+                    "endOffset": 1457
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endColumn": 111,
+                        "endOffset": 1407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1462,
+                    "endColumn": 102,
+                    "endOffset": 1560
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1412,
+                        "endColumn": 102,
+                        "endOffset": 1510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1565,
+                    "endColumn": 110,
+                    "endOffset": 1671
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1515,
+                        "endColumn": 110,
+                        "endOffset": 1621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1676,
+                    "endColumn": 106,
+                    "endOffset": 1778
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1626,
+                        "endColumn": 106,
+                        "endOffset": 1728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1783,
+                    "endColumn": 106,
+                    "endOffset": 1885
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1733,
+                        "endColumn": 106,
+                        "endOffset": 1835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1890,
+                    "endColumn": 121,
+                    "endOffset": 2007
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1840,
+                        "endColumn": 121,
+                        "endOffset": 1957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2012,
+                    "endColumn": 98,
+                    "endOffset": 2106
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1962,
+                        "endColumn": 98,
+                        "endOffset": 2056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2111,
+                    "endColumn": 156,
+                    "endOffset": 2263
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 156,
+                        "endOffset": 207
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2268,
+                    "endColumn": 142,
+                    "endOffset": 2406
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 142,
+                        "endOffset": 350
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2411,
+                    "endColumn": 142,
+                    "endOffset": 2549
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 355,
+                        "endColumn": 142,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2554,
+                    "endColumn": 95,
+                    "endOffset": 2645
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 95,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2650,
+                    "endColumn": 70,
+                    "endOffset": 2716
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 594,
+                        "endColumn": 70,
+                        "endOffset": 660
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2721,
+                    "endColumn": 69,
+                    "endOffset": 2786
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 665,
+                        "endColumn": 69,
+                        "endOffset": 730
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2791,
+                    "endColumn": 60,
+                    "endOffset": 2847
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 60,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2852,
+                    "endColumn": 72,
+                    "endOffset": 2920
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 796,
+                        "endColumn": 72,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2925,
+                    "endColumn": 74,
+                    "endOffset": 2995
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 74,
+                        "endOffset": 939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3000,
+                    "endColumn": 97,
+                    "endOffset": 3093
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 944,
+                        "endColumn": 97,
+                        "endOffset": 1037
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3098,
+                    "endColumn": 93,
+                    "endOffset": 3187
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1042,
+                        "endColumn": 93,
+                        "endOffset": 1131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3192,
+                    "endColumn": 77,
+                    "endOffset": 3265
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1136,
+                        "endColumn": 77,
+                        "endOffset": 1209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3270,
+                    "endColumn": 77,
+                    "endOffset": 3343
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1214,
+                        "endColumn": 77,
+                        "endOffset": 1287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3348,
+                    "endColumn": 92,
+                    "endOffset": 3436
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1292,
+                        "endColumn": 92,
+                        "endOffset": 1380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3441,
+                    "endColumn": 108,
+                    "endOffset": 3545
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1385,
+                        "endColumn": 108,
+                        "endOffset": 1489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3550,
+                    "endColumn": 65,
+                    "endOffset": 3611
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endColumn": 65,
+                        "endOffset": 1555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3616,
+                    "endColumn": 67,
+                    "endOffset": 3679
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 67,
+                        "endOffset": 1623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3684,
+                    "endColumn": 183,
+                    "endOffset": 3863
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1628,
+                        "endColumn": 183,
+                        "endOffset": 1807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3868,
+                    "endColumn": 76,
+                    "endOffset": 3940
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1812,
+                        "endColumn": 76,
+                        "endOffset": 1884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3945,
+                    "endColumn": 92,
+                    "endOffset": 4033
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1889,
+                        "endColumn": 92,
+                        "endOffset": 1977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4038,
+                    "endColumn": 94,
+                    "endOffset": 4128
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1982,
+                        "endColumn": 94,
+                        "endOffset": 2072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4133,
+                    "endColumn": 160,
+                    "endOffset": 4289
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2077,
+                        "endColumn": 160,
+                        "endOffset": 2233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4294,
+                    "endColumn": 107,
+                    "endOffset": 4397
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 103,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4402,
+                    "endColumn": 211,
+                    "endOffset": 4609
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 211,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4614,
+                    "endColumn": 131,
+                    "endOffset": 4741
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 599,
+                        "endColumn": 127,
+                        "endOffset": 726
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4746,
+                    "endColumn": 110,
+                    "endOffset": 4852
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 727,
+                        "endColumn": 106,
+                        "endOffset": 833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4857,
+                    "endColumn": 229,
+                    "endOffset": 5082
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 834,
+                        "endColumn": 229,
+                        "endOffset": 1063
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5087,
+                    "endColumn": 134,
+                    "endOffset": 5217
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1064,
+                        "endColumn": 130,
+                        "endOffset": 1194
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5222,
+                    "endColumn": 141,
+                    "endOffset": 5359
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1195,
+                        "endColumn": 137,
+                        "endOffset": 1332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5364,
+                    "endColumn": 223,
+                    "endOffset": 5583
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 223,
+                        "endOffset": 508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5588,
+                    "endColumn": 236,
+                    "endOffset": 5820
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1333,
+                        "endColumn": 236,
+                        "endOffset": 1569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5825,
+                    "endColumn": 113,
+                    "endOffset": 5934
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1570,
+                        "endColumn": 109,
+                        "endOffset": 1679
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5939,
+                    "endColumn": 215,
+                    "endOffset": 6150
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1680,
+                        "endColumn": 215,
+                        "endOffset": 1895
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 6155,
+                    "endColumn": 137,
+                    "endOffset": 6288
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1896,
+                        "endColumn": 133,
+                        "endOffset": 2029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 6293,
+                    "endColumn": 218,
+                    "endOffset": 6507
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 2030,
+                        "endColumn": 218,
+                        "endOffset": 2248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 6512,
+                    "endColumn": 208,
+                    "endOffset": 6716
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2249,
+                        "endColumn": 204,
+                        "endOffset": 2453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 6721,
+                    "endColumn": 102,
+                    "endOffset": 6819
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2454,
+                        "endColumn": 98,
+                        "endOffset": 2552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6824,
+                    "endColumn": 96,
+                    "endOffset": 6916
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2553,
+                        "endColumn": 92,
+                        "endOffset": 2645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6921,
+                    "endColumn": 112,
+                    "endOffset": 7029
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/res/values-fr/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2646,
+                        "endColumn": 108,
+                        "endOffset": 2754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 7034,
+                    "endColumn": 62,
+                    "endOffset": 7092
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2238,
+                        "endColumn": 62,
+                        "endOffset": 2296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 7097,
+                    "endColumn": 85,
+                    "endOffset": 7178
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2061,
+                        "endColumn": 85,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 7183,
+                    "endColumn": 100,
+                    "endOffset": 7279
+                },
+                "from": {
+                    "file": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2147,
+                        "endColumn": 100,
+                        "endOffset": 2243
+                    }
+                }
+            }
+        ]
+    }
+]
