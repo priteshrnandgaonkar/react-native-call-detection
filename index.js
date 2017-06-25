@@ -2,7 +2,7 @@
 * @providesModule react-native-call-detection
 */
 import { NativeModules, NativeEventEmitter, Platform } from 'react-native'
-const BatchedBridge = require('BatchedBridge')
+const BatchedBridge = require('react-native/Libraries/BatchedBridge/BatchedBridge')
 
 const NativeCallDetector = NativeModules.CallDetectionManager
 const NativeCallDetectorAndroid = NativeModules.CallDetectionManagerAndroid
@@ -34,7 +34,7 @@ class CallDetectorManager {
     	NativeCallDetectorAndroid && NativeCallDetectorAndroid.stopListener()
         CallStateUpdateActionModule.callback = undefined
       if(this.subscription) {
-          this.subscription.remove();
+          this.subscription.removeAllListeners('PhoneCallStateUpdate');
           this.subscription = undefined
       }
     }
