@@ -23,7 +23,7 @@ export default class HomeComponent extends Component {
   }
 
   callFriendTapped() {
-    Linking.openURL('tel:9892960768')
+    Linking.openURL('tel:5555555555')
       .catch(err => {
         console.log(err)
       });
