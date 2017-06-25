@@ -33,7 +33,10 @@ class CallDetectorManager {
     	NativeCallDetector && NativeCallDetector.stopListener()
     	NativeCallDetectorAndroid && NativeCallDetectorAndroid.stopListener()
         CallStateUpdateActionModule.callback = undefined
-        if(this.subscription) this.subscription.remove()
+      if(this.subscription) {
+          this.subscription.remove();
+          this.subscription = undefined
+      }
     }
 
       callStateUpdated(state) {
