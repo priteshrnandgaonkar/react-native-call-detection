@@ -36,13 +36,6 @@ class CallDetectorManager {
           this.subscription = undefined
       }
     }
-
-      callStateUpdated(state) {
-
-        console.log('State')
-        console.log(state)
-        callback(state)
-      }
 }
 
 export default module.exports = CallDetectorManager;
