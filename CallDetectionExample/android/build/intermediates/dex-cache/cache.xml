@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/CallDetectionExample/react-native-call-detection/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ec0f38820a8d801b28601acad27ca305bc14b6c">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/CallDetectionExample-react-native-call-detection-unspecified_1164467e6636186a5225c32194810e9a0ce2d450.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_61532d3c1a90ba3162b8de085bd1140af8217168.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_5a3f3d57b68f9ad1ec67555582f9928453128b1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_c06a44b6084101bca9bb25ecc8ef95a2c1c10506.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_f231699427dd3fe72a530649757f0f09c1504c86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_f5609f62bfc85996cc83374837005639115361bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_e4f6bc7a6986deda0d48c573fbcff7055a7b1e07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_e14ab5cb5652c9ae2f31885dd6750f83bcc30254.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_bceae15a5e11d0cba86d3ab1ee2472e4fb425c6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_bce007ed1b07790e030f12445bb9329efde86085.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_14e6a27b53639bf08c1a692025796a36bffe4b61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_3e96c29d73ddb2ac0d6441a825cf9279184bb85d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_5ea4118a92dff58def9219d97ce44088850401a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_10102ac680be14dcf1f116db01a91c3590e000fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_5696a00c382810b16f9dc7980b514b6dc371bfe9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_9c7ebce232395f1839818a982433460d10827516.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_51d3a1bcab77f648a3ae67b00a7a612659bbf715.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_b185ff6680e6fd933137b45452c9ebd33279a78a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_c707e93b6ff601789a13111066cd82d49172d0cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_ddb2d22e648dc13980a81a95c2ca2b1a5b58ac4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_66606bb8cffcdcc8f2ade507c439fc510a5b4e2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.0_5bc81178ba6287cff989a98d5a772e16e2ff1fe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_f145cccbf1d49d982aacda08c8ccda92c209c658.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_f0f950f79b8de35825dc4925d2eba1950615b54b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_8299dce22b98b713a2f5d6e99213c2b5706d031c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_56e31cbba4cf1b5bdb11d045078f1be87cf0ddae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_30a0846554eb9fdeb3cc3bb717c0f6b01bfcb570.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5cbc9214ee567ea6ef56fb2707d48e58d240fc2">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.22.1_256c6baec2512e6e679cfe602cf18d6591f055cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_1c3481fffac0ac2e133966e5757f3fda63cbdd81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_2e20e48db0be79ff40c1c30356e0b3bd2aa8d02b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ad4a149667df5e18c0b6721233de61266d8c76b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_4bb267e5e1cc65f17972911b76547bc243fddce5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d3e48e200296061415952a358fad487e129adaa">
+        <dex dex="/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.45.1_71849da9b55d5f8d2a73822f1e4e5fe17b4bd741.jar" />
+    </item>
+
+</items>

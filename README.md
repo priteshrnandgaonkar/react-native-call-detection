@@ -1,26 +1,61 @@
 ## React Native Call Detection 🎉 🎊
 
-This package helps to detect different call states like Incoming, Disconnected, Dialing and Connected for iOS. For android the work is in progress.
+This package helps to detect different call states like `Incoming`, `Disconnected`, `Dialing` and `Connected` for iOS. For android, this package will give the following states, `Offhook`, `Incoming` and `Disconnected`.
 
 ## Installation
 
-Add the package to your react-native project
+Add the package to your react-native project in the following way
 
-If your package uses yarn then
-```
+```shell
 yarn add react-native-call-detection
-```
-
-Link the current package to your react native project in the following way
 
 ```
+
+Link the current package to your react native project
+
+```shell
 react-native link react-native-call-detection
 
 ```
 
-Add CoreTelephony framework in your iOS project.
+###For Android:-
+Just Verify that the following changes are present in the corresponding files
+
+-  In `MainApplication.java`
+
+	``` diff
+	+ import com.pritesh.calldetection.CallDetectionManager;
+	@Override
+    protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+    +     new CallDetectionManager(MainApplication.this)
+      );
+    }
+  };
+
+	```
+- In `android/settings.gradle`:
+
+	```diff
+	...
+	include ':app'
+	+ include ':react-native-call-detection'
+	+ project(':react-native-call-detection').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-call-detection/android')
+	``` 
+- In `android/app/build.gradle`:
+
+	```diff
+	dependencies {
+	    ...
+	    compile "com.facebook.react:react-native:+"  // From node_modules
+	+   compile project(':react-native-call-detection')
+	}
+	```
 
 ## Usage
+There are different hooks that you may get depending on the platform. So if
+
 Its really easy to setup the package. Have a look at the following code snippet
 
 ``` javascript
@@ -28,26 +63,40 @@ import CallDetectorManager from 'react-native-call-detection'
 
 startListenerTapped() {
 	this.callDetector = new CallDetectorManager((event)=> {
-	if (Platform.OS === 'ios') {
-		// For iOS
-		// event will be either "Connected", 
-		// "Disconnected","Dialing" and "Incoming"
-	
-		if (event === 'Disconnected') {
-			// Do something call got disconnected
-		} 
-		else if (event === 'Connected') {
-		// Do something call got connected
-		} 
-		else if (event === 'Incoming') {
-		// Do something call got incoming
+		if (Platform.OS === 'ios') {
+			// event will be either "Connected", 
+			// "Disconnected","Dialing" and "Incoming"
+		
+			if (event === 'Disconnected') {
+				// Do something call got disconnected
+			} 
+			else if (event === 'Connected') {
+			// Do something call got connected
+			} 
+			else if (event === 'Incoming') {
+			// Do something call got incoming
+			}
+			else if (event === 'Dialing') {
+			// Do something call got dialing
+			}
 		}
-		else if (event === 'Dialing') {
-		// Do something call got dialing
-		}
-	}
-	else {
-		// For android work is in progress
+		else {
+			  // event will be either "Offhook", 
+	      	  // "Disconnected" and "Incoming"
+    
+	        if (event === 'Offhook') {
+	        //Device call state: Off-hook. 
+	        // At least one call exists that is dialing,
+	        // active, or on hold, 
+	        // and no calls are ringing or waiting.
+	        
+	        } 
+	        else if (event === 'Disconnected') {
+	        // Do something call got Disconnected
+	        } 
+	        else if (event === 'Incoming') {
+	        // Do something call got Incoming
+	        }	
 		}
 	})
 }

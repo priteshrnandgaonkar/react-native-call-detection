@@ -1,0 +1,5 @@
+rootProject.name = 'CallDetectionExample'
+include ':react-native-call-detection'
+project(':react-native-call-detection').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-call-detection/android')
+
+include ':app'

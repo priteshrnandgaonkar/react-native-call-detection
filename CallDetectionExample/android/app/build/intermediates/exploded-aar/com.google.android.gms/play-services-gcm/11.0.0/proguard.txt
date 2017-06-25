@@ -1,0 +1,4 @@
+# Ensure that proguard will not strip the handleIntent method.
+-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {
+    public void handleIntent(android.content.Intent);
+}

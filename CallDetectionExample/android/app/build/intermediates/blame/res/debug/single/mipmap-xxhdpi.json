@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/pritesh/Development/Libraries/CallDetectionExample/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/pritesh/Development/Libraries/CallDetectionExample/CallDetectionExample/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/pritesh/Development/Libraries/react-native-call-detection/CallDetectionExample/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
