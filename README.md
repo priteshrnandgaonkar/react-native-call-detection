@@ -109,7 +109,7 @@ stopListenerTapped() {
 
 Dont forget to call `dispose` when you don't intend to use call detection, as it will avoid memory leakages.
 
-Example project can be used to test out the example. In the example project update the `HomeComponent.js` with the phone number to call
+Example project can be used to test out the package. In the example project update the `HomeComponent.js` with the phone number to call
 
 ```javascript
   callFriendTapped() {
