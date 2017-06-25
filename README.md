@@ -24,12 +24,12 @@ Just Verify that the following changes are present in the corresponding files
 -  In `MainApplication.java`
 
 ``` diff
-	+ import com.pritesh.calldetection.CallDetectionManager;
++ import com.pritesh.calldetection.CallDetectionManager;
 	@Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-    +     new CallDetectionManager(MainApplication.this)
++     new CallDetectionManager(MainApplication.this)
       );
     }
   };
@@ -62,7 +62,7 @@ Its really easy to setup the package. Have a look at the following code snippet
 import CallDetectorManager from 'react-native-call-detection'
 
 startListenerTapped() {
-this.callDetector = new CallDetectorManager((event)=> {
+	this.callDetector = new CallDetectorManager((event)=> {
 	if (Platform.OS === 'ios') {
 		// event will be either "Connected", 
 		// "Disconnected","Dialing" and "Incoming"
@@ -81,24 +81,24 @@ this.callDetector = new CallDetectorManager((event)=> {
 		}
 	}
 	else {
-		  // event will be either "Offhook", 
-      	  // "Disconnected" and "Incoming"
-    
-        if (event === 'Offhook') {
-        //Device call state: Off-hook. 
-        // At least one call exists that is dialing,
-        // active, or on hold, 
-        // and no calls are ringing or waiting.
-        
-        } 
-        else if (event === 'Disconnected') {
-        // Do something call got Disconnected
-        } 
-        else if (event === 'Incoming') {
-        // Do something call got Incoming
-        }	
+		// event will be either "Offhook", 
+		// "Disconnected" and "Incoming"
+		    
+		if (event === 'Offhook') {
+		//Device call state: Off-hook. 
+		// At least one call exists that is dialing,
+		// active, or on hold, 
+		// and no calls are ringing or waiting.
+		    
+		} 
+		else if (event === 'Disconnected') {
+		// Do something call got Disconnected
+		} 
+		else if (event === 'Incoming') {
+		// Do something call got Incoming
+    	}	
 	}
-})
+	})
 }
 
 stopListenerTapped() {
