@@ -72,7 +72,7 @@ startListenerTapped() {
 	
 
 	if (event === 'Disconnected') {
-		// Do something call got disconnected
+	// Do something call got disconnected
 	} 
 	else if (event === 'Connected') {
 	// Do something call got connected
@@ -80,8 +80,6 @@ startListenerTapped() {
 	} 
 	else if (event === 'Incoming') {
 	// Do something call got incoming
-	// This clause will only be executed for iOS
-
 	}
 	else if (event === 'Dialing') {
 	// Do something call got dialing
