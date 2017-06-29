@@ -19,7 +19,7 @@ react-native link react-native-call-detection
 
 ```
 
-###For Android:-
+### For Android:-
 Just Verify that the following changes are present in the corresponding files
 
 -  In `MainApplication.java`
@@ -64,42 +64,37 @@ import CallDetectorManager from 'react-native-call-detection'
 
 startListenerTapped() {
 	this.callDetector = new CallDetectorManager((event)=> {
-	if (Platform.OS === 'ios') {
-		// event will be either "Connected", 
-		// "Disconnected","Dialing" and "Incoming"
+	// For iOS event will be either "Connected",
+	// "Disconnected","Dialing" and "Incoming"
 	
-		if (event === 'Disconnected') {
-			// Do something call got disconnected
-		} 
-		else if (event === 'Connected') {
-		// Do something call got connected
-		} 
-		else if (event === 'Incoming') {
-		// Do something call got incoming
-		}
-		else if (event === 'Dialing') {
-		// Do something call got dialing
-		}
+	// For Android event will be either "Offhook",
+	// "Disconnected" and "Incoming"
+	
+
+	if (event === 'Disconnected') {
+		// Do something call got disconnected
+	} 
+	else if (event === 'Connected') {
+	// Do something call got connected
+	// This clause will only be executed for iOS
+	} 
+	else if (event === 'Incoming') {
+	// Do something call got incoming
+	// This clause will only be executed for iOS
+
 	}
-	else {
-		// event will be either "Offhook", 
-		// "Disconnected" and "Incoming"
-		    
-		if (event === 'Offhook') {
-		//Device call state: Off-hook. 
-		// At least one call exists that is dialing,
-		// active, or on hold, 
-		// and no calls are ringing or waiting.
-		    
-		} 
-		else if (event === 'Disconnected') {
-		// Do something call got Disconnected
-		} 
-		else if (event === 'Incoming') {
-		// Do something call got Incoming
-    	}	
-	}
-	})
+	else if (event === 'Dialing') {
+	// Do something call got dialing
+	// This clause will only be executed for iOS
+	} 
+	else if (event === 'Offhook') {
+	//Device call state: Off-hook. 
+	// At least one call exists that is dialing,
+	// active, or on hold, 
+	// and no calls are ringing or waiting.
+	// This clause will only be executed for Android
+	} 
+})
 }
 
 stopListenerTapped() {
@@ -121,5 +116,8 @@ Example project can be used to test out the package. In the example project upda
       });
   }
 ```
-
 For any problems and doubt raise an issue.
+
+### Caveat 
+Since For android, there is no native support to detect call being disconnected, the callbackn with "Disconnected" event will be called only when the app comes in foreground.
+
