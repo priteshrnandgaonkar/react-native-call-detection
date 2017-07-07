@@ -1,14 +1,15 @@
 {
   "name": "react-native-call-detection",
   "version": "1.3.0",
-  "description": "",
+  "description": "Get different phone call states for iOS and Android",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priteshrnandgaonkar/react-native-call-detection"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react-native","call","detection","iOS","android"],
+  "author": "Pritesh Nandgaonkar <prit.nandgaonkar@gmail.com> (https://github.com/priteshrnandgaonkar)",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.26.0"
   }
