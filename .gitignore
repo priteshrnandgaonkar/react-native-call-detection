@@ -33,7 +33,15 @@ local.properties
 #
 node_modules/
 npm-debug.log
+CallDetectionExample/ios/build/
+
+CallDetectionExample/android/.gradle/
+
+CallDetectionExample/android/app/build/
+
 CallDetectionExample/.idea/
+
+CallDetectionExample/.DS_Store
 
 .idea/
 
