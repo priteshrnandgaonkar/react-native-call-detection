@@ -81,10 +81,8 @@ public class CallDetectionManagerModule
 
     @Override
     public void onActivityResumed(Activity activity) {
-        Log.d("Activity Resumed", "Activity Resumed");
         if (wasAppInOffHook && jsModule != null) {
             wasAppInOffHook = false;
-            Log.d("Activity Resumed", "Activity Resumed and app was in offhook");
             jsModule.callStateUpdated("Disconnected");
         }
     }
@@ -116,7 +114,6 @@ public class CallDetectionManagerModule
         switch (state) {
             //Hangup
             case TelephonyManager.CALL_STATE_IDLE:
-                Log.d("CALL STATE", "IDLE");
                 // Device call state: No activity.
                 break;
             //Outgoing
@@ -124,13 +121,11 @@ public class CallDetectionManagerModule
                 //Device call state: Off-hook. At least one call exists that is dialing, active, or on hold, and no calls are ringing or waiting.
                 wasAppInOffHook = true;
                 jsModule.callStateUpdated("Offhook");
-                Log.d("CALL STATE", "OFFHOOK");
                 break;
             //Incoming
             case TelephonyManager.CALL_STATE_RINGING:
                 // Device call state: Ringing. A new call arrived and is ringing or waiting. In the latter case, another call is already active.
                 jsModule.callStateUpdated("Incoming");
-                Log.d("CALL STATE", "RINGING");
                 break;
         }
     }

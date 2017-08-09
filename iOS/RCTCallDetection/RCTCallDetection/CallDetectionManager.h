@@ -1,8 +1,8 @@
 //
 //  CallDetectionManager.h
-//  housing
 //
-//  Created by Amandeep Singh on 16/06/17.
+//
+//  Created by Pritesh Nandgaonkar on 16/06/17.
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 //

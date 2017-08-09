@@ -33,6 +33,10 @@ local.properties
 #
 node_modules/
 npm-debug.log
+CallDetectionExample/.idea/
+
+.idea/
+
 .idea/.name
 
 .idea/compiler.xml
