@@ -148,10 +148,24 @@ Since For android, there is no native support to detect call being disconnected,
 6. Run the packager
 	`npm start` 
 
+7. Update the mobile number of your friend in [`HomeComponent.js`](CallDetectionExample/src/HomeComponent.js)
+
+
+	```
+	 callFriendTapped() {
+	 // Insert the telephone number
+    	Linking.openURL('tel:5555555555')
+      .catch(err => {
+        console.log(err)
+      });
+  	 }
+  	
+	```
+
 7. To run the example on iOS from terminal type
-	`react-native run-ios` 
+	`react-native run-ios` (This will open the simulator, since simulator doesnt have the support for calling I will advice you to connect your iOS device and the follow the below procedure for running the app through xcode)
 	
-	or you can also run the app from xcode, for that, open [`xcodeproj`](CallDectionExample/ios/CallDetectionExample.xcodeproj) in xcode and run on the simulator.
+	or you can also run the app from xcode, for that, open [`xcodeproj`](CallDectionExample/ios/CallDetectionExample.xcodeproj) in xcode and run on the device.
 	
 8. To run the example on android, connect any android device to your mac then follow the below steps
 	1. Navigate to [`android`](CallDectionExample/android/) folder and then run `adb reverse tcp:8081 tcp:8081`
