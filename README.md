@@ -114,8 +114,48 @@ Example project can be used to test out the package. In the example project upda
       });
   }
 ```
-For any problems and doubt raise an issue.
 
 ### Caveat 
-Since For android, there is no native support to detect call being disconnected, the callbackn with "Disconnected" event will be called only when the app comes in foreground.
+Since For android, there is no native support to detect call being disconnected, the callback with "Disconnected" event will be called only when the app comes in foreground.
 
+### How to run an example
+
+1. Install `node` and `watchman`
+
+	```
+	brew install node
+	brew install watchman
+	 
+	```
+
+2. `yarn`
+
+    Install `yarn` from `npm`.
+
+        npm i -g yarn
+
+3. Xcode
+
+    Install it from the App Store.
+
+4. React Native Debugger
+
+    This is an electron app that bundles react devtools, redux devtools and chrome devtools configured for use with react-native.
+
+        brew cask install react-native-debugger
+5. Once you have done all the above steps, navigate to `CallDetectionExample` folder and run `yarn` or `npm install`, it will fetch all the dependencies in the `node_modules` folder.
+
+6. Run the packager
+	`npm start` 
+
+7. To run the example on iOS from terminal type
+	`react-native run-ios` 
+	
+	or you can also run the app from xcode, for that, open [`xcodeproj`](CallDectionExample/ios/CallDetectionExample.xcodeproj) in xcode and run on the simulator.
+	
+8. To run the example on android, connect any android device to your mac then follow the below steps
+	1. Navigate to [`android`](CallDectionExample/android/) folder and then run `adb reverse tcp:8081 tcp:8081`
+	2. Navigate back to [example directory](CallDectionExample/) and then run
+	`react-native run-android`
+	
+For any problems and doubt raise an issue.	
