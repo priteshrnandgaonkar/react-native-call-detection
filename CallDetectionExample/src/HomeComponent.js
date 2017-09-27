@@ -26,9 +26,9 @@ export default class HomeComponent extends Component {
   }
 
   startListenerTapped() {
-    callDetector = new CallDetectorManager((event)=>{
+    callDetector = new CallDetectorManager((event, number)=>{
       var updatedCallStates = this.state.callStates
-      updatedCallStates.push(event)
+      updatedCallStates.push(event + ' - ' + number)
       var previousDS = this.state.ds
       this.setState({ callStates:  updatedCallStates, ds: previousDS.cloneWithRows(updatedCallStates)});
     })
