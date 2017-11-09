@@ -28,7 +28,7 @@ class CallDetectorManager {
 
     subscription;
     callback
-    constructor(callback, permissionDeniedCallback = console.error, permissionMessage = {
+    constructor(callback, readPhoneNumberAndroid = false, permissionDeniedCallback = console.error, permissionMessage = {
       title: 'Phone State Permission',
       message: 'This app needs access to your phone state in order to react and/or to adapt to incoming calls.'
     }) {
@@ -40,9 +40,13 @@ class CallDetectorManager {
         }
         else {
             if(NativeCallDetectorAndroid) {
-              requestPermissionsAndroid(permissionMessage)
-                .then((permissionGranted) => permissionGranted ? NativeCallDetectorAndroid.startListener() : permissionDeniedCallback(PermissionDenied))
-                .catch(permissionDeniedCallback)
+              if(readPhoneNumberAndroid) {
+                requestPermissionsAndroid(permissionMessage)
+                  .then((permissionGranted) => permissionGranted ? NativeCallDetectorAndroid.startListener() : permissionDeniedCallback(PermissionDenied))
+                  .catch(permissionDeniedCallback)
+              } else {
+                NativeCallDetectorAndroid.startListener()
+              }
             }
             CallStateUpdateActionModule.callback = callback
         }
