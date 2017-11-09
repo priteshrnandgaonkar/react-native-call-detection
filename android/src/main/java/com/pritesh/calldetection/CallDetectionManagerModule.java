@@ -125,7 +125,7 @@ public class CallDetectionManagerModule
             //Incoming
             case TelephonyManager.CALL_STATE_RINGING:
                 // Device call state: Ringing. A new call arrived and is ringing or waiting. In the latter case, another call is already active.
-                jsModule.callStateUpdated("Incoming", incomingNumber);
+                jsModule.callStateUpdated("Incoming", phoneNumber);
                 break;
         }
     }
