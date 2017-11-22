@@ -63,3 +63,4 @@ CallDetectionExample/.DS_Store
 .idea/vcs.xml
 
 .idea/workspace.xml
+CallDetectionExample/android/local.properties

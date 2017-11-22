@@ -13,11 +13,11 @@ public class CallDetectionPhoneStateListener extends PhoneStateListener {
 
     @Override
     public void onCallStateChanged(int state, String incomingNumber) {
-        this.callStatCallBack.phoneCallStateUpdated(state);
+        this.callStatCallBack.phoneCallStateUpdated(state, incomingNumber);
     }
 
     interface PhoneCallStateUpdate {
-        void phoneCallStateUpdated(int state);
+        void phoneCallStateUpdated(int state, String incomingNumber);
     }
 
 }

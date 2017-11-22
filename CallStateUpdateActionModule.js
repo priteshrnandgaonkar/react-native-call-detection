@@ -1,7 +1,7 @@
 var CallStateUpdateActionModule = {
 
-  callStateUpdated(state) {
-    this.callback && this.callback(state)
+  callStateUpdated(state, incomingNumber) {
+    this.callback && this.callback(state, incomingNumber)
   }
 
 }
