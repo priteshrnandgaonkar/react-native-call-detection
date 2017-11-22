@@ -23,7 +23,7 @@ const requestPermissionsAndroid = (permissionMessage) => {
           .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
     )
 
-export const PermissionDenied = 'PERMISSION DENIED'
+export const permissionDenied = 'PERMISSION DENIED'
 class CallDetectorManager {
 
     subscription;
@@ -42,11 +42,14 @@ class CallDetectorManager {
             if(NativeCallDetectorAndroid) {
               if(readPhoneNumberAndroid) {
                 requestPermissionsAndroid(permissionMessage)
-                  .then((permissionGranted) => permissionGranted ? NativeCallDetectorAndroid.startListener() : permissionDeniedCallback(PermissionDenied))
+                  .then((permissionGranted) => {
+                    if (!permissionGranted) {
+                      permissionDeniedCallback(permissionDenied)
+                    }
+                  })
                   .catch(permissionDeniedCallback)
-              } else {
-                NativeCallDetectorAndroid.startListener()
               }
+              NativeCallDetectorAndroid.startListener();
             }
             CallStateUpdateActionModule.callback = callback
         }
