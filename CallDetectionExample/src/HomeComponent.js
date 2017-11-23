@@ -33,7 +33,7 @@ export default class HomeComponent extends Component {
         this.setState({ callStates:  updatedCallStates, ds: previousDS.cloneWithRows(updatedCallStates)});
       },
       true, // if you want to read the phone number of the incoming call [ANDROID], otherwise false
-      console.error, // callback if your permission got denied [ANDROID] [only if you want to read incoming number] default: console.error
+      ()=>{}, // callback if your permission got denied [ANDROID] [only if you want to read incoming number] default: console.error
       {
         title: 'Phone State Permission',
         message: 'This app needs access to your phone state in order to react and/or to adapt to incoming calls.'

@@ -7,6 +7,8 @@ import {
   Platform,
   PermissionsAndroid
 } from 'react-native'
+export const permissionDenied = 'PERMISSION DENIED'
+
 const BatchedBridge = require('react-native/Libraries/BatchedBridge/BatchedBridge')
 
 const NativeCallDetector = NativeModules.CallDetectionManager
@@ -15,20 +17,20 @@ const NativeCallDetectorAndroid = NativeModules.CallDetectionManagerAndroid
 var CallStateUpdateActionModule = require('./CallStateUpdateActionModule')
 BatchedBridge.registerCallableModule('CallStateUpdateActionModule', CallStateUpdateActionModule)
 
-const requestPermissionsAndroid = (permissionMessage) => {
-  PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE)
-    .then((gotPermission) => gotPermission
-      ? true
-      : PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE, permissionMessage)
-          .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
-    )
+const requestPermissionsAndroid = async (permissionMessage) => {
+      await PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE)
+      .then(async (gotPermission) => gotPermission
+          ? true
+          : await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE, permissionMessage)
+              .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
+        )
+}
 
-export const permissionDenied = 'PERMISSION DENIED'
 class CallDetectorManager {
 
     subscription;
     callback
-    constructor(callback, readPhoneNumberAndroid = false, permissionDeniedCallback = console.error, permissionMessage = {
+    constructor(callback, readPhoneNumberAndroid = false, permissionDeniedCallback = ()=>{}, permissionMessage = {
       title: 'Phone State Permission',
       message: 'This app needs access to your phone state in order to react and/or to adapt to incoming calls.'
     }) {
@@ -65,5 +67,4 @@ class CallDetectorManager {
       }
     }
 }
-
 export default module.exports = CallDetectorManager;
