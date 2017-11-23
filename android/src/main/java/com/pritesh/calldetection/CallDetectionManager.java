@@ -32,7 +32,6 @@ public class CallDetectionManager implements ReactPackage {
         return modules;
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Arrays.<Class<? extends JavaScriptModule>>asList(
                 CallStateUpdateActionModule.class
