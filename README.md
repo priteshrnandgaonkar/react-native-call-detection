@@ -1,7 +1,7 @@
 ## React Native Call Detection 🎉 🎊
 [![npm version](https://badge.fury.io/js/react-native-call-detection.svg)](https://badge.fury.io/js/react-native-call-detection)
 
-This package helps to detect different call states like `Incoming`, `Disconnected`, `Dialing` and `Connected` for iOS. For android, this package will give the following states, `Offhook`, `Incoming`, `Disconnected` and `Missed`.
+This package helps to detect different call states like `Incoming`, `Disconnected`, `Dialing` and `Connected` for iOS. For android, this package will give following states, `Offhook`, `Incoming`, `Disconnected` and `Missed`. In the case of `Incoming` for android, the package will also provide with the incoming phone number.
 
 ## Installation
 
@@ -55,7 +55,7 @@ dependencies {
 ```
 
 ## Usage
-There are different hooks that you may get depending on the platform. So if
+There are different hooks that you may get depending on the platform. Since for android you could also request the package to provide you with phone number of the caller, you will have to provide the necessary request message and the corresponding error callback. The package will request for `READ_PHONE_STATE` permission in android.
 
 Its really easy to setup the package. Have a look at the following code snippet
 
@@ -96,7 +96,14 @@ startListenerTapped() {
     	// Do something call got missed
     	// This clause will only be executed for Android
     }
-})
+},
+false, // if you want to read the phone number of the incoming call [ANDROID], otherwise false
+()=>{}, // callback if your permission got denied [ANDROID] [only if you want to read incoming number] default: console.error
+{
+title: 'Phone State Permission',
+message: 'This app needs access to your phone state in order to react and/or to adapt to incoming calls.'
+} // a custom permission request message to explain to your user, why you need the permission [recommended] - this is the default one
+)
 }
 
 stopListenerTapped() {
