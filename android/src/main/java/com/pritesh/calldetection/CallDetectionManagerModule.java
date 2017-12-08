@@ -22,6 +22,7 @@ public class CallDetectionManagerModule
         CallDetectionPhoneStateListener.PhoneCallStateUpdate {
 
     private boolean wasAppInOffHook = false;
+    private boolean wasAppInRinging = false;
     private ReactApplicationContext reactContext;
     private TelephonyManager telephonyManager;
     private CallStateUpdateActionModule jsModule = null;
@@ -65,6 +66,7 @@ public class CallDetectionManagerModule
         map.put("Incoming", "Incoming");
         map.put("Offhook", "Offhook");
         map.put("Disconnected", "Disconnected");
+        map.put("Missed", "Missed");
         return map;
     }
 
@@ -114,6 +116,16 @@ public class CallDetectionManagerModule
         switch (state) {
             //Hangup
             case TelephonyManager.CALL_STATE_IDLE:
+                if(wasAppInRinging == true ) {
+                    if(wasAppInOffHook == true) {
+                        jsModule.callStateUpdated("Disconnected", null);
+
+                    } else {
+                        jsModule.callStateUpdated("Missed", null);
+                    }
+                }
+                wasAppInRinging = false;
+                wasAppInOffHook = false;
                 // Device call state: No activity.
                 break;
             //Outgoing
@@ -125,6 +137,7 @@ public class CallDetectionManagerModule
             //Incoming
             case TelephonyManager.CALL_STATE_RINGING:
                 // Device call state: Ringing. A new call arrived and is ringing or waiting. In the latter case, another call is already active.
+                wasAppInRinging = true;
                 jsModule.callStateUpdated("Incoming", phoneNumber);
                 break;
         }

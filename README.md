@@ -1,7 +1,7 @@
 ## React Native Call Detection 🎉 🎊
 [![npm version](https://badge.fury.io/js/react-native-call-detection.svg)](https://badge.fury.io/js/react-native-call-detection)
 
-This package helps to detect different call states like `Incoming`, `Disconnected`, `Dialing` and `Connected` for iOS. For android, this package will give the following states, `Offhook`, `Incoming` and `Disconnected`.
+This package helps to detect different call states like `Incoming`, `Disconnected`, `Dialing` and `Connected` for iOS. For android, this package will give the following states, `Offhook`, `Incoming`, `Disconnected` and `Missed`.
 
 ## Installation
 
@@ -68,7 +68,7 @@ startListenerTapped() {
 	// "Disconnected","Dialing" and "Incoming"
 	
 	// For Android event will be either "Offhook",
-	// "Disconnected" and "Incoming"
+	// "Disconnected", "Incoming" or "Missed"
 	
 
 	if (event === 'Disconnected') {
@@ -91,7 +91,11 @@ startListenerTapped() {
 	// active, or on hold, 
 	// and no calls are ringing or waiting.
 	// This clause will only be executed for Android
-	} 
+	}
+	else if (event === 'Missed') {
+    	// Do something call got missed
+    	// This clause will only be executed for Android
+    }
 })
 }
 
