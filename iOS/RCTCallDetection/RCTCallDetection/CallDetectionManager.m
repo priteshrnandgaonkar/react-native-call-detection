@@ -74,6 +74,8 @@ RCT_EXPORT_METHOD(stopListener) {
         [self sendEventWithName:@"PhoneCallStateUpdate"
                                                      body:[eventNameMap objectForKey: call.callState]];
     }];
+    [self sendEventWithName:@"PhoneCallStateUpdate"
+                                                     body:[eventNameMap objectForKey: call.callState]];
 }
 
 @end
