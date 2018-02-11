@@ -66,5 +66,9 @@ class CallDetectorManager {
           this.subscription = undefined
       }
     }
+
+    currentCalls(currentCallsCB) {
+      NativeCallDetector && NativeCallDetector.currentCalls(currentCallsCB);
+    }
 }
 export default module.exports = CallDetectorManager;

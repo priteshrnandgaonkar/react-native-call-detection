@@ -19,6 +19,16 @@ typedef void (^CallBack)();
 
 @implementation CallDetectionManager
 
+- (NSDictionary *)eventNameMap
+{
+  return @{
+   CTCallStateConnected    : @"Connected",
+   CTCallStateDialing      : @"Dialing",
+   CTCallStateDisconnected : @"Disconnected",
+   CTCallStateIncoming     : @"Incoming"
+   };
+}
+
 - (NSDictionary *)constantsToExport
 {
     return @{
@@ -59,23 +69,25 @@ RCT_EXPORT_METHOD(stopListener) {
     self.callCenter = nil;
 }
 
+RCT_EXPORT_METHOD(currentCalls:(RCTResponseSenderBlock)_callback) {
+    CTCallCenter *ctCallCenter = [[CTCallCenter alloc] init]; // using my own callCenter to avoid interferrence with event listeners
+    NSMutableArray<NSDictionary *> *calls = [[NSMutableArray alloc] init];
+
+    for (CTCall *currentCall in ctCallCenter.currentCalls) {
+        [calls addObject:@{@"callID": currentCall.callID, @"callState": [self.eventNameMap objectForKey: currentCall.callState ]}];
+    }
+    _callback(@[[NSNull null], calls]);
+}
+
 - (void)handleCall:(CTCall *)call {
-    
-    NSDictionary *eventNameMap = @{
-                                   CTCallStateConnected    : @"Connected",
-                                   CTCallStateDialing      : @"Dialing",
-                                   CTCallStateDisconnected : @"Disconnected",
-                                   CTCallStateIncoming     : @"Incoming"
-                                   };
-    
     _callCenter = [[CTCallCenter alloc] init];
-    
+
     [_callCenter setCallEventHandler:^(CTCall *call) {
         [self sendEventWithName:@"PhoneCallStateUpdate"
-                                                     body:[eventNameMap objectForKey: call.callState]];
+                                                     body:[self.eventNameMap objectForKey: call.callState]];
     }];
     [self sendEventWithName:@"PhoneCallStateUpdate"
-                                                     body:[eventNameMap objectForKey: call.callState]];
+                                                     body:[self.eventNameMap objectForKey: call.callState]];
 }
 
 @end
