@@ -116,17 +116,15 @@ public class CallDetectionManagerModule
         switch (state) {
             //Hangup
             case TelephonyManager.CALL_STATE_IDLE:
-                if(wasAppInRinging == true ) {
-                    if(wasAppInOffHook == true) {
-                        jsModule.callStateUpdated("Disconnected", null);
-
-                    } else {
-                        jsModule.callStateUpdated("Missed", null);
-                    }
+                if(wasAppInOffHook == true) { // if there was an ongoing call and the call state switches to idle, the call must have gotten disconnected
+                    jsModule.callStateUpdated("Disconnected", null);
+                } else if(wasAppInRinging == true) { // if the phone was ringing but there was no actual ongoing call, it must have gotten missed
+                    jsModule.callStateUpdated("Missed", null);
                 }
+
+                //reset device state
                 wasAppInRinging = false;
                 wasAppInOffHook = false;
-                // Device call state: No activity.
                 break;
             //Outgoing
             case TelephonyManager.CALL_STATE_OFFHOOK:
