@@ -33,6 +33,10 @@ typedef void (^CallBack)();
     return @[@"PhoneCallStateUpdate"];
 }
 
++ (BOOL)requiresMainQueueSetup {
+    return YES;
+}
+
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(addCallBlock:(RCTResponseSenderBlock) block) {
@@ -60,16 +64,16 @@ RCT_EXPORT_METHOD(stopListener) {
 }
 
 - (void)handleCall:(CTCall *)call {
-    
+
     NSDictionary *eventNameMap = @{
                                    CTCallStateConnected    : @"Connected",
                                    CTCallStateDialing      : @"Dialing",
                                    CTCallStateDisconnected : @"Disconnected",
                                    CTCallStateIncoming     : @"Incoming"
                                    };
-    
+
     _callCenter = [[CTCallCenter alloc] init];
-    
+
     [_callCenter setCallEventHandler:^(CTCall *call) {
         [self sendEventWithName:@"PhoneCallStateUpdate"
                                                      body:[eventNameMap objectForKey: call.callState]];
