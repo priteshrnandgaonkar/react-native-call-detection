@@ -64,3 +64,5 @@ CallDetectionExample/.DS_Store
 
 .idea/workspace.xml
 CallDetectionExample/android/local.properties
+
+*.swp
