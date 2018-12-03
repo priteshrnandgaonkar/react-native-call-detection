@@ -83,10 +83,7 @@ public class CallDetectionManagerModule
 
     @Override
     public void onActivityResumed(Activity activity) {
-        if (wasAppInOffHook && jsModule != null) {
-            wasAppInOffHook = false;
-            jsModule.callStateUpdated("Disconnected", null);
-        }
+
     }
 
     @Override
