@@ -126,9 +126,6 @@ Example project can be used to test out the package. In the example project upda
   }
 ```
 
-### Caveat 
-Since For android, there is no native support to detect call being disconnected, the callback with "Disconnected" event will be called only when the app comes in foreground.
-
 ### How to run an example
 
 1. Install `node` and `watchman`
