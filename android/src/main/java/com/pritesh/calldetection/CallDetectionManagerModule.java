@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -60,7 +59,6 @@ public class CallDetectionManagerModule
      * @return a map of constants this module exports to JS. Supports JSON types.
      */
     public
-    @Nullable
     Map<String, Object> getConstants() {
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("Incoming", "Incoming");
