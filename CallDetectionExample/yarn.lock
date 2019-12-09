@@ -1322,8 +1322,8 @@ detect-libc@^1.0.2:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
 
 diff@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-3.2.0.tgz#c9ce393a4b7cbd0b058a725c93df299027868ff9"
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
 
 dom-walk@^0.1.0:
   version "0.1.1"
@@ -3268,8 +3268,9 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-"react-native-call-detection@file:../react-native-call-detection":
-  version "1.4.1"
+react-native-call-detection@^1.4.1:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/react-native-call-detection/-/react-native-call-detection-1.8.2.tgz#58ca34e2c0ff3202855c0d2727facf5824ebf938"
 
 react-native@0.50.0:
   version "0.50.0"
