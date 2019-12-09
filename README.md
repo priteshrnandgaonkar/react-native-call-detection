@@ -12,47 +12,8 @@ yarn add react-native-call-detection
 
 ```
 
-Link the current package to your react native project
-
-```shell
-react-native link react-native-call-detection
-
-```
-
 ### For Android:-
-Just Verify that the following changes are present in the corresponding files
-
--  In `MainApplication.java`
-
-``` diff
-+ import com.pritesh.calldetection.CallDetectionManager;
-	@Override
-    protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-+     new CallDetectionManager(MainApplication.this)
-      );
-    }
-  };
-```
-- In `android/settings.gradle`:
-
-```diff
-...
-include ':app'
-+ include ':react-native-call-detection'
-+ project(':react-native-call-detection').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-call-detection/android')
-``` 
-	
-- In `android/app/build.gradle`:
-
-```diff
-dependencies {
-    ...
-    compile "com.facebook.react:react-native:+"  // From node_modules
-+   compile project(':react-native-call-detection')
-}
-```
+Autolinking should work without manual changes
 
 ## Usage
 There are different hooks that you may get depending on the platform. Since for android you could also request the package to provide you with phone number of the caller, you will have to provide the necessary request message and the corresponding error callback. The package will request for `READ_PHONE_STATE` permission in android.
@@ -63,39 +24,40 @@ Its really easy to setup the package. Have a look at the following code snippet
 import CallDetectorManager from 'react-native-call-detection'
 
 startListenerTapped() {
-	this.callDetector = new CallDetectorManager((event)=> {
+	this.callDetector = new CallDetectorManager((event, phoneNumber)=> {
 	// For iOS event will be either "Connected",
 	// "Disconnected","Dialing" and "Incoming"
-	
+
 	// For Android event will be either "Offhook",
 	// "Disconnected", "Incoming" or "Missed"
-	
+	// phoneNumber should store caller/called number
+
 
 	if (event === 'Disconnected') {
 	// Do something call got disconnected
-	} 
+	}
 	else if (event === 'Connected') {
 	// Do something call got connected
 	// This clause will only be executed for iOS
-	} 
+	}
 	else if (event === 'Incoming') {
 	// Do something call got incoming
 	}
 	else if (event === 'Dialing') {
 	// Do something call got dialing
 	// This clause will only be executed for iOS
-	} 
+	}
 	else if (event === 'Offhook') {
-	//Device call state: Off-hook. 
+	//Device call state: Off-hook.
 	// At least one call exists that is dialing,
-	// active, or on hold, 
+	// active, or on hold,
 	// and no calls are ringing or waiting.
 	// This clause will only be executed for Android
 	}
 	else if (event === 'Missed') {
     	// Do something call got missed
     	// This clause will only be executed for Android
-    }
+  }
 },
 false, // if you want to read the phone number of the incoming call [ANDROID], otherwise false
 ()=>{}, // callback if your permission got denied [ANDROID] [only if you want to read incoming number] default: console.error
@@ -133,7 +95,7 @@ Example project can be used to test out the package. In the example project upda
 	```
 	brew install node
 	brew install watchman
-	 
+
 	```
 
 2. `yarn`
@@ -154,7 +116,7 @@ Example project can be used to test out the package. In the example project upda
 5. Once you have done all the above steps, navigate to `CallDetectionExample` folder and run `yarn` or `npm install`, it will fetch all the dependencies in the `node_modules` folder.
 
 6. Run the packager
-	`npm start` 
+	`npm start`
 
 7. Update the mobile number of your friend in [`HomeComponent.js`](CallDetectionExample/src/HomeComponent.js)
 
@@ -167,17 +129,17 @@ Example project can be used to test out the package. In the example project upda
         console.log(err)
       });
   	 }
-  	
+
 	```
 
 7. To run the example on iOS from terminal type
 	`react-native run-ios` (This will open the simulator, since simulator doesnt have the support for calling I will advice you to connect your iOS device and the follow the below procedure for running the app through xcode)
-	
+
 	or you can also run the app from xcode, for that, open `/CallDectionExample/ios/CallDetectionExample.xcodeproj` in xcode and run on the device.
-	
+
 8. To run the example on android, connect any android device to your mac then follow the below steps
 	1. Navigate to `android` folder(./CallDectionExample/android/) folder and then run `adb reverse tcp:8081 tcp:8081`
 	2. Navigate back to example directory(CallDectionExample) and then run
 	`react-native run-android`
-	
-For any problems and doubt raise an issue.	
+
+For any problems and doubt raise an issue.
