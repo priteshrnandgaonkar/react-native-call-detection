@@ -3,31 +3,21 @@
 //
 //
 //  Created by Pritesh Nandgaonkar on 16/06/17.
+//  Updated by Doug Watkins for Inside Real Estate on 31/07/19
 //  Copyright © 2017 Facebook. All rights reserved.
 //
 
 #import "CallDetectionManager.h"
-@import CoreTelephony;
+@import CallKit;
 
 typedef void (^CallBack)();
 @interface CallDetectionManager()
 
 @property(strong, nonatomic) RCTResponseSenderBlock block;
-@property(strong, nonatomic, nonnull) CTCallCenter *callCenter;
+@property(strong, nonatomic) CXCallObserver* callObserver;
 
 @end
-
 @implementation CallDetectionManager
-
-- (NSDictionary *)constantsToExport
-{
-    return @{
-             @"Connected"   : @"Connected",
-             @"Dialing"     : @"Dialing",
-             @"Disconnected": @"Disconnected",
-             @"Incoming"    : @"Incoming"
-             };
-}
 
 - (NSArray<NSString *> *)supportedEvents {
     return @[@"PhoneCallStateUpdate"];
@@ -40,46 +30,38 @@ typedef void (^CallBack)();
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(addCallBlock:(RCTResponseSenderBlock) block) {
-  // Setup call tracking
-  self.block = block;
-  self.callCenter = [[CTCallCenter alloc] init];
-  __typeof(self) weakSelf = self;
-  self.callCenter.callEventHandler = ^(CTCall *call) {
-    [weakSelf handleCall:call];
-  };
+    // Setup call tracking
+    self.block = block;
+    self.callObserver = [[CXCallObserver alloc] init];
+    __typeof(self) weakSelf = self;
+    [self.callObserver setDelegate:weakSelf queue:nil];
 }
 
 RCT_EXPORT_METHOD(startListener) {
     // Setup call tracking
-    self.callCenter = [[CTCallCenter alloc] init];
+    self.callObserver = [[CXCallObserver alloc] init];
     __typeof(self) weakSelf = self;
-    self.callCenter.callEventHandler = ^(CTCall *call) {
-        [weakSelf handleCall:call];
-    };
+    [self.callObserver setDelegate:weakSelf queue:nil];
 }
 
 RCT_EXPORT_METHOD(stopListener) {
     // Setup call tracking
-    self.callCenter = nil;
+    self.callObserver = nil;
 }
 
-- (void)handleCall:(CTCall *)call {
-
-    NSDictionary *eventNameMap = @{
-                                   CTCallStateConnected    : @"Connected",
-                                   CTCallStateDialing      : @"Dialing",
-                                   CTCallStateDisconnected : @"Disconnected",
-                                   CTCallStateIncoming     : @"Incoming"
-                                   };
-
-    _callCenter = [[CTCallCenter alloc] init];
-
-    [_callCenter setCallEventHandler:^(CTCall *call) {
-        [self sendEventWithName:@"PhoneCallStateUpdate"
-                                                     body:[eventNameMap objectForKey: call.callState]];
-    }];
-    [self sendEventWithName:@"PhoneCallStateUpdate"
-                                                     body:[eventNameMap objectForKey: call.callState]];
+- (void)callObserver:(CXCallObserver *)callObserver callChanged:(CXCall *)call {
+    if (call.hasEnded == true) {
+      [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Disconnected"];
+    }
+    if (call.isOutgoing == true && call.hasConnected == false && call.hasEnded == false) {
+      [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Dialing"];
+    }
+    if (call.isOutgoing == false && call.hasConnected == false) {
+      [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Incoming"];
+    }
+    if (call.hasEnded == false && call.hasConnected == true) {
+      [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Connected"];
+    }
 }
 
 @end
