@@ -17,11 +17,11 @@ const NativeCallDetectorAndroid = NativeModules.CallDetectionManagerAndroid
 var CallStateUpdateActionModule = require('./CallStateUpdateActionModule')
 BatchedBridge.registerCallableModule('CallStateUpdateActionModule', CallStateUpdateActionModule)
 
-const requestPermissionsAndroid = async (permissionMessage) => {
-    return await PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE)
-      .then(async (gotPermission) => gotPermission
+const requestPermissionsAndroid = (permissionMessage) => {
+    return PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE)
+      .then((gotPermission) => gotPermission
           ? true
-          : await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE, permissionMessage)
+          : PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE, permissionMessage)
               .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
         )
 }
