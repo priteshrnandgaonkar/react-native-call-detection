@@ -19,20 +19,15 @@ BatchedBridge.registerCallableModule('CallStateUpdateActionModule', CallStateUpd
 
 // https://stackoverflow.com/questions/13154445/how-to-get-phone-number-from-an-incoming-call : Amjad Alwareh's answer.
 const requestPermissionsAndroid = (permissionMessage) => {
-  return Promise.all([
-    PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE)
-      .then((gotPermission) => gotPermission
-        ? true
-        : PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE, permissionMessage)
-          .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
-      ),
-    PermissionsAndroid.check(PermissionsAndroid.PERMISSIONS.READ_CALL_LOG)
-      .then((gotPermission) => gotPermission
-        ? true
-        : PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.READ_CALL_LOG, permissionMessage)
-          .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
-      ),
-  ])
+  const requiredPermission = Platform.constants.Release >= 9
+    ? PermissionsAndroid.PERMISSIONS.READ_CALL_LOG
+    : PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE
+  return PermissionsAndroid.check(requiredPermission)
+    .then((gotPermission) => gotPermission
+      ? true
+      : PermissionsAndroid.request(requiredPermission, permissionMessage)
+        .then((result) => result === PermissionsAndroid.RESULTS.GRANTED)
+    )
 }
 
 class CallDetectorManager {
@@ -58,7 +53,7 @@ class CallDetectorManager {
               const releaseNumber = Platform.constants.Release
 
               // for all android version: need read phone state
-              // for version >= 9: also need read call log 
+              // for version >= 9: also need read call log
               if (!permissionGrantedPhoneState || (!permissionGrantedCallLog && releaseNumber >= 9 )) {
                 permissionDeniedCallback(permissionDenied)
               }
