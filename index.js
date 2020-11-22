@@ -49,12 +49,8 @@ class CallDetectorManager {
         if (readPhoneNumberAndroid) {
 
           requestPermissionsAndroid(permissionMessage)
-            .then(([permissionGrantedPhoneState, permissionGrantedCallLog]) => {
-              const releaseNumber = Platform.constants.Release
-
-              // for all android version: need read phone state
-              // for version >= 9: also need read call log
-              if (!permissionGrantedPhoneState || (!permissionGrantedCallLog && releaseNumber >= 9 )) {
+            .then((permissionGrantedRedState) => {
+              if (!permissionGrantedRedState) {
                 permissionDeniedCallback(permissionDenied)
               }
             })
