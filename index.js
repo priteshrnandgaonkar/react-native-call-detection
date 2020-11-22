@@ -49,8 +49,8 @@ class CallDetectorManager {
         if (readPhoneNumberAndroid) {
 
           requestPermissionsAndroid(permissionMessage)
-            .then((permissionGrantedRedState) => {
-              if (!permissionGrantedRedState) {
+            .then((permissionGrantedReadState) => {
+              if (!permissionGrantedReadState) {
                 permissionDeniedCallback(permissionDenied)
               }
             })
