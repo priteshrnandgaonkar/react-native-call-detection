@@ -12,8 +12,21 @@ yarn add react-native-call-detection
 
 ```
 
-### For Android:-
-Autolinking should work without manual changes
+### For Android:
+
+In `android/app/src/main/java/.../MainApplication.java`:
+
+```java
+import com.pritesh.calldetection.CallDetectionReactPackage; // Add this import line
+//...
+
+private static List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+        new MainReactPackage(),
+        new CallDetectionReactPackage() // Add this line
+    );
+}
+```
 
 ## Usage
 There are different hooks that you may get depending on the platform. Since for android you could also request the package to provide you with phone number of the caller, you will have to provide the necessary request message and the corresponding error callback. The package will request for `READ_PHONE_STATE` permission in android.
