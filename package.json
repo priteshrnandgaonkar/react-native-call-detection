@@ -3,6 +3,7 @@
   "version": "1.8.3",
   "description": "Get different phone call states for iOS and Android along with incoming phone number(just for android)",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/priteshrnandgaonkar/react-native-call-detection"
