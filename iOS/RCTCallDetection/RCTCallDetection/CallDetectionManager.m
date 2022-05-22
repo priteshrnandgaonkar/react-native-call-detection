@@ -15,8 +15,10 @@ typedef void (^CallBack)();
 
 @property(strong, nonatomic) RCTResponseSenderBlock block;
 @property(strong, nonatomic) CXCallObserver* callObserver;
+@property(nonatomic) long* _backgroundUpdateTask;
 
 @end
+
 @implementation CallDetectionManager
 
 - (NSArray<NSString *> *)supportedEvents {
@@ -38,6 +40,7 @@ RCT_EXPORT_METHOD(addCallBlock:(RCTResponseSenderBlock) block) {
 }
 
 RCT_EXPORT_METHOD(startListener) {
+    [self beginBackgroundUpdateTask];
     // Setup call tracking
     self.callObserver = [[CXCallObserver alloc] init];
     __typeof(self) weakSelf = self;
@@ -47,17 +50,34 @@ RCT_EXPORT_METHOD(startListener) {
 RCT_EXPORT_METHOD(stopListener) {
     // Setup call tracking
     self.callObserver = nil;
+    [self endBackgroundUpdateTask];
+}
+
+- (void) beginBackgroundUpdateTask
+{
+    self._backgroundUpdateTask = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^{
+        [self endBackgroundUpdateTask];
+    }];
+}
+
+- (void) endBackgroundUpdateTask
+{
+    [[UIApplication sharedApplication] endBackgroundTask: self._backgroundUpdateTask];
+    self._backgroundUpdateTask = UIBackgroundTaskInvalid;
 }
 
 - (void)callObserver:(CXCallObserver *)callObserver callChanged:(CXCall *)call {
     if (call.hasEnded == true) {
       [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Disconnected"];
-    } else if (call.hasConnected == true) {
-      [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Connected"];
-    } else if (call.isOutgoing == true) {
+    }
+    if (call.isOutgoing == true && call.hasConnected == false && call.hasEnded == false) {
       [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Dialing"];
-    } else {
+    }
+    if (call.isOutgoing == false && call.hasConnected == false) {
       [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Incoming"];
+    }
+    if (call.hasEnded == false && call.hasConnected == true) {
+      [self sendEventWithName:@"PhoneCallStateUpdate" body:@"Connected"];
     }
 }
 
