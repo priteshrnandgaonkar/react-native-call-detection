@@ -12,6 +12,22 @@ yarn add react-native-call-detection
 
 ```
 
+## Integrate into an Expo managed project
+
+1. Install `expo-dev-client`:
+
+```shell
+expo install expo-dev-client
+```
+
+2. Add `react-native-call-detection` into the `plugins` array inside the `app.json` file of your app:
+
+```shell
+"plugins": [
+  ["react-native-call-detection"],
+],
+```
+
 ### For Android:-
 Autolinking should work without manual changes
 
