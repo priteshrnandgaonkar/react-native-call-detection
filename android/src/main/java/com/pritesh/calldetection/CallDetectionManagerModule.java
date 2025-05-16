@@ -38,28 +38,42 @@ public class CallDetectionManagerModule
         return "CallDetectionManagerAndroid";
     }
 
-    @ReactMethod
-    public void startListener() {
-        if (activity == null) {
-            activity = getCurrentActivity();
+@ReactMethod
+public void startListener() {
+    if (activity == null) {
+        activity = getCurrentActivity();
+        if (activity != null) {
             activity.getApplication().registerActivityLifecycleCallbacks(this);
         }
+    }
 
-        telephonyManager = (TelephonyManager) this.reactContext.getSystemService(
-                Context.TELEPHONY_SERVICE);
+    if (callDetectionPhoneStateListener != null) {
+        // Already registered, do not register again
+        Log.d("CallDetection", "Listener already registered. Skipping.");
+        return;
+    }
+
+    telephonyManager = (TelephonyManager) reactContext.getSystemService(Context.TELEPHONY_SERVICE);
+    if (telephonyManager != null) {
         callDetectionPhoneStateListener = new CallDetectionPhoneStateListener(this);
-        telephonyManager.listen(callDetectionPhoneStateListener,
-                PhoneStateListener.LISTEN_CALL_STATE);
+        telephonyManager.listen(callDetectionPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
+        Log.d("CallDetection", "Listener started.");
+    } else {
+        Log.w("CallDetection", "TelephonyManager not available.");
+    }
+}
 
+
+  @ReactMethod
+public void stopListener() {
+    if (telephonyManager != null && callDetectionPhoneStateListener != null) {
+        telephonyManager.listen(callDetectionPhoneStateListener, PhoneStateListener.LISTEN_NONE);
+        Log.d("CallDetection", "Listener stopped.");
     }
 
-    @ReactMethod
-    public void stopListener() {
-        telephonyManager.listen(callDetectionPhoneStateListener,
-                PhoneStateListener.LISTEN_NONE);
-        telephonyManager = null;
-        callDetectionPhoneStateListener = null;
-    }
+    callDetectionPhoneStateListener = null;
+    telephonyManager = null;
+}
 
     /**
      * @return a map of constants this module exports to JS. Supports JSON types.
