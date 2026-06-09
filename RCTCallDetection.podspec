@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files        = [ "iOS/RCTCallDetection/RCTCallDetection/*.h",
                             "iOS/RCTCallDetection/RCTCallDetection/*.m"]
   
-  s.platform            = :ios, "7.0"
-  s.dependency 'React'
+  s.platform            = :ios, "13.4"
+  install_modules_depedeencies(s)
 end
