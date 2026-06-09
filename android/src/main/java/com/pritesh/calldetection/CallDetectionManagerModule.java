@@ -15,6 +15,8 @@ import com.facebook.react.bridge.ReactMethod;
 import java.util.HashMap;
 import java.util.Map;
 
+import androidx.annotation.Nullable;
+
 public class CallDetectionManagerModule
         extends ReactContextBaseJavaModule
         implements Application.ActivityLifecycleCallbacks,
@@ -27,6 +29,7 @@ public class CallDetectionManagerModule
     private CallStateUpdateActionModule jsModule = null;
     private CallDetectionPhoneStateListener callDetectionPhoneStateListener;
     private Activity activity = null;
+    private boolean isListenerRegistered = false;
 
     public CallDetectionManagerModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -43,6 +46,9 @@ public class CallDetectionManagerModule
         if (activity == null) {
             activity = getCurrentActivity();
             activity.getApplication().registerActivityLifecycleCallbacks(this);
+        } else {
+            Log.e("CallDetectionManager", "Unable to start linstener");
+            return;
         }
 
         telephonyManager = (TelephonyManager) this.reactContext.getSystemService(
