@@ -45,7 +45,12 @@ public class CallDetectionManagerModule
     public void startListener() {
         if (activity == null) {
             activity = getCurrentActivity();
-            activity.getApplication().registerActivityLifecycleCallbacks(this);
+            if (activity != null) {
+                activity.getApplication().registerActivityLifecycleCallbacks(this);
+            } else {
+                Log.e("CallDetectionManager", "Unable to start listener");
+                return;
+            }
         } else {
             Log.e("CallDetectionManager", "Unable to start linstener");
             return;
